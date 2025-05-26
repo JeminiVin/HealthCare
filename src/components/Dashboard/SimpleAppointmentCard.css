@@ -1,0 +1,47 @@
+/* src/components/Dashboard/SimpleAppointmentCard.css */
+
+.appointment-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background-color: #ffffff;
+  padding: 10px 16px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.appointment-card .action-icon {
+  font-size: 20px;
+  background-color: #e0f2fe;
+  padding: 8px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.appointment-card .action-info h5 {
+  font-size: 14px;
+  margin: 0;
+  color: #333;
+}
+
+.appointment-card .info p {
+  font-size: 12px;
+  margin: 0;
+  color: #777;
+}
+@media (max-width: 768px) {
+  .appointment-card {
+    gap: 8px;
+    padding: 8px 12px;
+  }
+
+  .appointment-card .info h5 {
+    font-size: 13px;
+  }
+
+  .appointment-card .info p {
+    font-size: 11px;
+  }
+}

@@ -1,0 +1,40 @@
+/* src/components/Dashboard/UpcomingSchedule.css */
+
+.soon-schedule {
+  margin-top: 24px;
+}
+
+.soon-schedule h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+.schedule-block {
+  margin-bottom: 20px;
+}
+
+.schedule-block h4 {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.appointment-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+@media (max-width: 768px) {
+  .upcoming-schedule h3 {
+    font-size: 18px;
+  }
+
+  .schedule-block h4 {
+    font-size: 14px;
+  }
+
+  .appointment-detail {
+    gap: 8px;
+  }
+}
